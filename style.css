@@ -1,0 +1,120 @@
+*{margin: 0%;
+padding: 0%;
+box-sizing: border-box;}
+
+#main{
+    display: inline-block;
+    height: 120vh;
+    width: 100%;
+    background-image: url(/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.content{
+    color:rgb(252, 226, 192);
+    position: relative;
+    max-width: 70%;
+    padding-left: 40rem;
+    padding-top: 30rem;
+    bottom:90px;
+}
+
+h1{
+    margin-bottom: 30px;
+    color: rgb(241, 222, 198);
+}
+/* 
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    background: rgb(235, 170, 51);
+    margin-top: 30px;
+} */
+
+span{
+    color: rgb(253, 189, 69);
+}
+
+header{margin: 0;
+display: flex;
+background-color: rgb(19, 24, 24);
+width: 100%;
+height: 60px;
+position: fixed;}
+
+
+ul,li,a{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    text-decoration: none;
+    padding-left: 30px;
+    position: relative;
+    left: 150px;
+    font-size: 30px;
+    align-items: center;
+    color: rgb(243, 231, 198);
+    padding-top: 5px;
+    
+}
+
+.h{font-size: 50px;
+margin-left: 20px;}
+
+button{ padding: 5px;
+    width: 70px;
+font-size: 19px;
+border-radius: 15px;
+position: relative;
+background-color: rgb(247, 183, 65);
+left: 1590px;
+bottom: 30px;
+}
+
+.p{
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.212);
+    background: rgba(2, 44, 63, 0.534);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50px;
+    animation: Annie 12s infinite;
+}
+
+@keyframes Annie{
+    0%{
+        background-image: url(/w1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    25%{
+           background-image: url(/w2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    75%{
+           background-image: url(/w3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    100%{
+           background-image: url(/w4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+.fa-btc{
+    font-size: 30px;
+    position: relative;
+    top: 15px ;
+    margin-left: 10px;
+}
